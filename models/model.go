@@ -1,12 +1,5 @@
 package models
 
-// type User struct {
-// 	ID       int    `json:"id"`
-// 	Name     string `json:"name"`
-// 	Age      int    `json:"age"`
-// 	Address  string `json:"address"`
-// 	UserType int    `json:"type"`
-// }
 type Room struct {
 	ID       int    `json:"id"`
 	RoomName string `json:"room_name"`
