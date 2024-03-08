@@ -52,12 +52,6 @@ type RoomParticipantsResponse struct {
 	Data    []RoomParticipant `json:"data"`
 }
 
-// type ParticipantResponse struct {
-// 	Status  int    `json:"status"`
-// 	Message string `json:"message"`
-// 	Data    Room   `json:"data"`
-// }
-
 type ParticipantsResponse struct {
 	Status  int    `json:"status"`
 	Message string `json:"message"`
